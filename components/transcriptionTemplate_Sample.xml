@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "LAP Custom.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><!-- Insert Audio File INFO here --> Transcription</title>
+                <author>Linguistic Atlas Project</author>
+                <respStmt>
+                    <name><!-- Scribe First and Last Name --></name>
+                    <resp>Transcription of audio into text</resp>
+                </respStmt>
+            </titleStmt>
+            <extent><!-- Duration of interview --></extent>
+            <publicationStmt>
+                <distributor>Linguistic Atlas Projects</distributor>
+                <authority>The University of Georgia</authority>
+                <availability><p>Available for educational and research purposes.</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" corresp=""/>
+                    <!-- File path should be used for correspondence attribute. -->
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+                <editorialDecl>
+                    <normalization>
+                        <p>The words on the recording should be written down in normal spelling using "dictionary
+                            spelling." Transcribers should not attempt to use special spellings to represent
+                            pronunciation. The test is whether the spelling can be found in a standard dictionary.
+                            Some words may not be in a standard dictionary; transcribers should just do the best they
+                            can on those, and mark them with ?.</p>
+                    </normalization>
+                    <interpretation>
+                        <p>Transcribers should not try to force the words into grammatical sentences, but instead
+                            should write down what people actually say, even if it appears to be ungrammatical
+                            (this is quite normal in conversation). Transcribers should mark "sentence units" (word
+                            groups thought by the transcriber to hold together in some way) with a capital letter at the
+                            beginning, and a period and one space at the end. Other use of caps and periods should be
+                            limited, and periods should not be followed by spaces unless at the end of a sentence unit.
+                            Proper names should be capitalized, but no caps or periods should be used with titles like
+                            mr or mrs or dr, and other abbreviations should be avoided as much as possible. Use ?
+                            to mark questions. Do not use : or ; and use the comma as little as possible (only when
+                            the interpretation of the utterance would otherwise be unclear to the user).</p>
+                    </interpretation>
+                </editorialDecl>
+                <charDecl>
+                    <!-- Beginning of characters associated with speech. -->
+                    <char xml:id="over">
+                        <desc>Start of speech that overlaps speech by the previous speaker.</desc>
+                    </char>
+                    <!-- Beginning of characters associated with LAP Regions. -->
+                    <char xml:id="geo">
+                        <desc>Geography</desc>
+                    </char>
+                    <char xml:id="top">
+                        <desc>Topography</desc>
+                    </char>
+                    <char xml:id="num">
+                        <desc>Numerals</desc>
+                    </char>
+                    <char xml:id="ti">
+                        <desc>Time</desc>
+                    </char>
+                    <char xml:id="wea">
+                        <desc>Weather</desc>
+                    </char>
+                    <char xml:id="fa">
+                        <desc>The Farm</desc>
+                    </char>
+                    <char xml:id="ag">
+                        <desc>Agriculture</desc>
+                    </char>
+                    <char xml:id="cu">
+                        <desc>Containers and Utensils</desc>
+                    </char>
+                    <char xml:id="veh">
+                        <desc>Vehicles</desc>
+                    </char>
+                    <char xml:id="conj">
+                        <desc>Conjunctions</desc>
+                    </char>
+                    <char xml:id="dom">
+                        <desc>Domestic Animals</desc>
+                    </char>
+                    <char xml:id="call">
+                        <desc>Calls to Animals</desc>
+                    </char>
+                    <char xml:id="wild">
+                        <desc>Wild Animals</desc>
+                    </char>
+                    <char xml:id="trees">
+                        <desc>Trees and Shrubs</desc>
+                    </char>
+                    <char xml:id="veg">
+                        <desc>Vegetables</desc>
+                    </char>
+                    <char xml:id="food">
+                        <desc>Food and Cooking</desc>
+                    </char>
+                    <char xml:id="dwell">
+                        <desc>Dwellings</desc>
+                    </char>
+                    <char xml:id="cloth">
+                        <desc>Clothing</desc>
+                    </char>
+                    <char xml:id="fam">
+                        <desc>Family</desc>
+                    </char>
+                    <char xml:id="soc">
+                        <desc>Social Relations</desc>
+                    </char>
+                    <char xml:id="greet">
+                        <desc>Greetings and Salutations</desc>
+                    </char>
+                    <char xml:id="nam">
+                        <desc>Names, Titles and Occupations</desc>
+                    </char>
+                    <char xml:id="rel">
+                        <desc>Religion</desc>
+                    </char>
+                    <char xml:id="aff">
+                        <desc>Affirmations and Interjections</desc>
+                    </char>
+                    <char xml:id="pro">
+                        <desc>Pronouns</desc>
+                    </char>
+                    <char xml:id="vpp">
+                        <desc>Verbs_Principle Parts</desc>
+                    </char>
+                    <char xml:id="vbhd">
+                        <desc>Verbs_Be, Have, Do</desc>
+                    </char>
+                    <char xml:id="va">
+                        <desc>Verbs_Agreement</desc>
+                    </char>
+                    <char xml:id="vm">
+                        <desc>Verbs_Modals</desc>
+                    </char>
+                    <char xml:id="adv">
+                        <desc>Adverbs</desc>
+                    </char>
+                    <char xml:id="prep">
+                        <desc>Prepositions</desc>
+                    </char>
+                    <char xml:id="ill">
+                        <desc>Illness and Death</desc>
+                    </char>
+                    <char xml:id="body">
+                        <desc>Body Parts</desc>
+                    </char>
+                    <char xml:id="char">
+                        <desc>Personal Characteristics</desc>
+                    </char>
+                    <char xml:id="pub">
+                        <desc>Public Institutions</desc>
+                    </char>
+                    <char xml:id="bus">
+                        <desc>Business</desc>
+                    </char>
+                    <char xml:id="sport">
+                        <desc>Sport and Play</desc>
+                    </char>
+                    <char xml:id="mus">
+                        <desc>Music</desc>
+                    </char>
+                    <char xml:id="inter">
+                        <desc>Interviewer</desc>
+                    </char>
+                    <char xml:id="non">
+                        <desc>Non-Interview</desc>
+                    </char>
+                </charDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="s1" resp="respondent"/>
+                    <person xml:id="s2" resp="auxilliary 1"/>
+                    <person xml:id="s3" resp="auxiliary 2"/>
+                    <person xml:id="i1" resp="interviewer 1"/>
+                    <person xml:id="i2" resp="interviewer 2"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="" affiliation="" contact="" when=""> Transcribed interview audio.</change>
+            <!-- who="first and last name" affiliation="institution name" contact="e-mail address" when="month/day/year"-->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <timeline origin="#TS-p1" unit="s">
+                <when xml:id="TS-p1" absolute="00:00:00"/>
+                <when xml:id="TS-p2" interval="5.0" since="TS-p1"/>
+                <when xml:id="TS-p3" interval="5.0" since="TS-p2"/>
+                <!-- the segments would be labeled going forward according to however many we have
+                for the duration of the mp3-->
+                <when xml:id="TS-p#" absolute="ending time"/>
+                <!-- This entry indicates the final segment. -->
+            </timeline>
+            <div type="reel" n="1">
+                <div type="region" n="1" who="#name">
+                    <!-- Not sure if you want these divisions or not. If you don't want the region name identified, 
+                    then I can take out all of the character declarations I have listed above.-->
+                    <seg xml:id="TS-u1" start="#TS-p1" end="#TS-p2">
+                        <u who="#s1" overlap="yes">
+                <!-- "overlap" is an attribute corresponding with your overlap button, or would you rather have it as a tag? -->
+                            <doubt/>
+                            <!-- "doubt" corresponds with your doubt button. -->
+                            <nonspeech/>
+                            <!-- "nonspeech" corresponds with your non-speech button. -->
+                        </u>
+                        <u who="#i1">
+                            <unintelligible/>
+                            <!-- "unintelligible" corresponds with your unintelligible button. -->
+                            <nonword/>
+                            <!-- "nonword" corresponds with your non-word button -->
+                        </u>
+                    </seg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>    
